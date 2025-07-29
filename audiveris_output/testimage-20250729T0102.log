@@ -1,0 +1,70 @@
+2025-07-29 01:02:49,226 INFO [testimage]                 Book.java:601  | 1 sheet in /workspaces/MobilSheets/backend/uploads/testimage.png
+2025-07-29 01:02:49,441 INFO []                 Book.java:2515 | Stored /book.xml
+2025-07-29 01:02:49,445 INFO []                 Book.java:2476 | Book stored as /workspaces/MobilSheets/audiveris_output/testimage.omr
+2025-07-29 01:02:49,474 INFO []                 Book.java:1963 | Book reaching PAGE on sheets:[#1]
+2025-07-29 01:02:49,477 INFO [testimage]       StepMonitoring.java:98   | LOAD
+2025-07-29 01:02:50,166 INFO [testimage]                 Book.java:1845 | Loaded image 1 2500x2582 from /workspaces/MobilSheets/backend/uploads/testimage.png
+2025-07-29 01:02:50,170 INFO [testimage]            ImageUtil.java:122  | Converting max RGB to gray
+2025-07-29 01:02:50,391 INFO [testimage]       StepMonitoring.java:98   | BINARY
+2025-07-29 01:02:50,814 INFO [testimage]       StepMonitoring.java:98   | SCALE
+2025-07-29 01:02:50,834 INFO [testimage]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-07-29 01:02:50,835 INFO [testimage]         ScaleBuilder.java:257  | Beam measured height:  8 -- 0.13 of [6..21] range at 168% of needed quorum
+2025-07-29 01:02:50,836 INFO [testimage]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(3,3,4) beam(8)}
+2025-07-29 01:02:50,837 INFO [testimage]       StepMonitoring.java:98   | GRID
+2025-07-29 01:02:51,320 INFO [testimage]       LinesRetriever.java:1490 | Global slope: 0.00000
+2025-07-29 01:02:51,356 INFO [testimage]    ClustersRetriever.java:334  | Retrieved line clusters: 4 of sizes [5] with interline(20,21,21)
+2025-07-29 01:02:51,507 INFO [testimage]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4]
+2025-07-29 01:02:51,878 INFO [testimage]        SystemManager.java:149  | Indentation detected for system#1
+2025-07-29 01:02:51,879 INFO [testimage]        SystemManager.java:736  | 1 part along 4 systems
+2025-07-29 01:02:51,880 INFO [testimage]                 Book.java:584  | Created scores: [{Score 1}]
+2025-07-29 01:02:51,881 INFO [testimage]       StepMonitoring.java:98   | HEADERS
+2025-07-29 01:02:52,238 INFO [testimage]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-07-29 01:02:52,241 INFO [testimage]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/workspaces/MobilSheets/audiveris/audiveris-5.3.jar!/res/basic-classifier.zip
+2025-07-29 01:02:52,812 INFO [testimage]       StepMonitoring.java:98   | STEM_SEEDS
+2025-07-29 01:02:52,995 INFO [testimage]            ImageUtil.java:204  | Discarding alpha band ...
+2025-07-29 01:02:53,448 INFO [testimage]            ImageUtil.java:122  | Converting max RGB to gray
+2025-07-29 01:02:53,666 INFO [testimage]        StemSeedsStep.java:86   | stem(3 max:4)
+2025-07-29 01:02:53,741 INFO [testimage]       StepMonitoring.java:98   | BEAMS
+2025-07-29 01:02:55,689 INFO [testimage]       StepMonitoring.java:98   | LEDGERS
+2025-07-29 01:02:55,950 INFO [testimage]       StepMonitoring.java:98   | HEADS
+2025-07-29 01:02:59,087 INFO [testimage]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-0.2] NOTEHEAD_BLACK[L:0.1,R:-0.3]}
+2025-07-29 01:02:59,088 INFO [testimage]       StepMonitoring.java:98   | STEMS
+2025-07-29 01:02:59,502 INFO [testimage]       StepMonitoring.java:98   | REDUCTION
+2025-07-29 01:02:59,636 INFO [testimage]        ReductionStep.java:93   | Stems free length median value: 73 pixels, 3.5 interlines
+2025-07-29 01:02:59,636 INFO [testimage]       StepMonitoring.java:98   | CUE_BEAMS
+2025-07-29 01:02:59,637 INFO [testimage]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-07-29 01:02:59,637 INFO [testimage]       StepMonitoring.java:98   | TEXTS
+2025-07-29 01:02:59,640 WARN [testimage]            TextsStep.java:97   | TEXTS step: No OCR is available!
+2025-07-29 01:02:59,650 INFO [testimage]       StepMonitoring.java:98   | MEASURES
+2025-07-29 01:02:59,662 INFO [testimage]                 Page.java:308  | 32 raw measures: [8 in system#1, 8 in system#2, 8 in system#3, 8 in system#4]
+2025-07-29 01:02:59,664 INFO [testimage]       StepMonitoring.java:98   | CHORDS
+2025-07-29 01:02:59,688 INFO [testimage]       StepMonitoring.java:98   | CURVES
+2025-07-29 01:03:00,520 INFO [testimage]         SlursBuilder.java:240  | Slurs: 0
+2025-07-29 01:03:00,597 INFO [testimage]      SegmentsBuilder.java:155  | Segments: 0
+2025-07-29 01:03:00,605 INFO [testimage]       StepMonitoring.java:98   | SYMBOLS
+2025-07-29 01:03:00,971 INFO [testimage]       StepMonitoring.java:98   | LINKS
+2025-07-29 01:03:01,001 INFO [testimage]       StepMonitoring.java:98   | RHYTHMS
+2025-07-29 01:03:01,032 INFO [testimage]                Voice.java:256  | Measure{#9P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,036 INFO [testimage]        MeasureRhythm.java:985  | Measure{#11P1} No timeOffset for HeadChordInter#1838{(0.947/0.947) slot#5 dur:1/4}
+2025-07-29 01:03:01,039 INFO [testimage]                Voice.java:256  | Measure{#13P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,052 INFO [testimage]        MeasureRhythm.java:985  | Measure{#21P1} No timeOffset for HeadChordInter#1871{(0.948/0.948) slot#5 dur:1/4}
+2025-07-29 01:03:01,054 INFO [testimage]   AbstractChordInter.java:632  | Measure{#21P1} No timeOffset for HeadChordInter#1871{(0.948/0.948) slot#5 dur:1/4}
+2025-07-29 01:03:01,058 INFO [testimage]                Voice.java:256  | Measure{#25P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,061 INFO [testimage]        MeasureRhythm.java:985  | Measure{#27P1} No timeOffset for HeadChordInter#1893{(0.946/0.946) slot#5 dur:1/4}
+2025-07-29 01:03:01,063 INFO [testimage]                Voice.java:256  | Measure{#29P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,066 INFO [testimage]       StepMonitoring.java:98   | PAGE
+2025-07-29 01:03:01,071 INFO [testimage]                Voice.java:256  | Measure{#9P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,072 INFO [testimage]                Voice.java:256  | Measure{#13P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,073 INFO [testimage]                Voice.java:256  | Measure{#25P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,074 INFO [testimage]                Voice.java:256  | Measure{#29P1} Voice{#1 excess:1/4} too long
+2025-07-29 01:03:01,075 INFO [testimage]                 Book.java:2535 | Book{testimage} storing
+2025-07-29 01:03:01,121 INFO [testimage]                 Book.java:2515 | Stored /book.xml
+2025-07-29 01:03:01,240 INFO [testimage]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-07-29 01:03:01,830 INFO [testimage]                Sheet.java:1529 | Stored /sheet#1/sheet#1.xml
+2025-07-29 01:03:01,831 INFO [testimage]                 Book.java:2476 | Book stored as /workspaces/MobilSheets/audiveris_output/testimage.omr
+2025-07-29 01:03:01,833 INFO [testimage]            SheetStub.java:1605 | Disposed sheet
+2025-07-29 01:03:01,908 INFO [testimage]                 Book.java:2035 | End of Stub#1 memory: 29,430,200
+2025-07-29 01:03:02,444 INFO [testimage]            SheetStub.java:1044 | Loaded /sheet#1/sheet#1.xml
+2025-07-29 01:03:02,819 INFO [testimage]      PartwiseBuilder.java:2645 | Exporting sheet(s): [#1]
+2025-07-29 01:03:02,900 INFO [testimage]        ScoreExporter.java:164  | Score testimage exported to /workspaces/MobilSheets/audiveris_output/testimage.mxl
+2025-07-29 01:03:02,945 INFO [testimage]                Score.java:187  | Closing {Score 1}
