@@ -1,0 +1,22 @@
+2025-07-29 03:50:22,468 INFO [camera_capture]                 Book.java:601  | 1 sheet in /workspaces/MobilSheets/uploads/camera_capture.png
+2025-07-29 03:50:22,640 INFO []                 Book.java:2515 | Stored /book.xml
+2025-07-29 03:50:22,641 INFO []                 Book.java:2476 | Book stored as /workspaces/MobilSheets/backend/output/camera_capture.omr
+2025-07-29 03:50:22,662 INFO []                 Book.java:1963 | Book reaching PAGE on sheets:[#1]
+2025-07-29 03:50:22,663 INFO [camera_capture]       StepMonitoring.java:98   | LOAD
+2025-07-29 03:50:22,718 INFO [camera_capture]                 Book.java:1845 | Loaded image 1 640x480 from /workspaces/MobilSheets/uploads/camera_capture.png
+2025-07-29 03:50:22,720 INFO [camera_capture]            ImageUtil.java:204  | Discarding alpha band ...
+2025-07-29 03:50:22,765 INFO [camera_capture]            ImageUtil.java:122  | Converting max RGB to gray
+2025-07-29 03:50:22,804 INFO [camera_capture]       StepMonitoring.java:98   | BINARY
+2025-07-29 03:50:22,906 INFO [camera_capture]       StepMonitoring.java:98   | SCALE
+2025-07-29 03:50:22,940 WARN [camera_capture]            SheetStub.java:467  | camera_capture With an interline value of 6 pixels, either this sheet contains no staves, or the picture resolution is too low (try 300 DPI).
+2025-07-29 03:50:22,941 INFO [camera_capture]                 Book.java:584  | Created scores: []
+2025-07-29 03:50:22,943 INFO [camera_capture]            SheetStub.java:1252 | Sheet camera_capture flagged as invalid.
+2025-07-29 03:50:22,943 INFO [camera_capture]            SheetStub.java:1372 | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2025-07-29 03:50:22,944 INFO [camera_capture]                 Book.java:2535 | Book{camera_capture} storing
+2025-07-29 03:50:22,981 INFO [camera_capture]                 Book.java:2515 | Stored /book.xml
+2025-07-29 03:50:23,036 INFO [camera_capture]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-07-29 03:50:23,353 INFO [camera_capture]                Sheet.java:1529 | Stored /sheet#1/sheet#1.xml
+2025-07-29 03:50:23,355 INFO [camera_capture]                 Book.java:2476 | Book stored as /workspaces/MobilSheets/backend/output/camera_capture.omr
+2025-07-29 03:50:23,360 INFO [camera_capture]            SheetStub.java:1605 | Disposed sheet
+2025-07-29 03:50:23,421 INFO [camera_capture]                 Book.java:2035 | End of Stub#1 memory: 9,697,712
+2025-07-29 03:50:23,422 INFO [camera_capture]                 Book.java:584  | Created scores: []

@@ -1,0 +1,28 @@
+2025-07-29 03:28:40,889 INFO [camera_capture]                 Book.java:601  | 1 sheet in /workspaces/MobilSheets/uploads/camera_capture.png
+2025-07-29 03:28:41,142 INFO []                 Book.java:2515 | Stored /book.xml
+2025-07-29 03:28:41,143 INFO []                 Book.java:2476 | Book stored as /workspaces/MobilSheets/backend/output/camera_capture.omr
+2025-07-29 03:28:41,160 INFO []                 Book.java:1963 | Book reaching PAGE on sheets:[#1]
+2025-07-29 03:28:41,162 INFO [camera_capture]       StepMonitoring.java:98   | LOAD
+2025-07-29 03:28:41,237 INFO [camera_capture]                 Book.java:1845 | Loaded image 1 640x480 from /workspaces/MobilSheets/uploads/camera_capture.png
+2025-07-29 03:28:41,241 INFO [camera_capture]            ImageUtil.java:204  | Discarding alpha band ...
+2025-07-29 03:28:41,291 INFO [camera_capture]            ImageUtil.java:122  | Converting max RGB to gray
+2025-07-29 03:28:41,334 INFO [camera_capture]       StepMonitoring.java:98   | BINARY
+2025-07-29 03:28:41,476 INFO [camera_capture]       StepMonitoring.java:98   | SCALE
+2025-07-29 03:28:41,486 INFO [camera_capture]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of 20 interline
+2025-07-29 03:28:41,487 INFO [camera_capture]         ScaleBuilder.java:257  | Beam measured height: 18 -- 0.83 of [8..20] range at 308% of needed quorum
+2025-07-29 03:28:41,488 INFO [camera_capture]            ScaleStep.java:65   | Scale{ interline(18,20,23) line(4,6,8) beam(18)}
+2025-07-29 03:28:41,489 INFO [camera_capture]       StepMonitoring.java:98   | GRID
+2025-07-29 03:28:41,745 INFO [camera_capture]       LinesRetriever.java:1490 | Global slope: 0.16484
+2025-07-29 03:28:41,757 INFO [camera_capture]    ClustersRetriever.java:334  | Retrieved line clusters: 0 of sizes [5] with interline(18,20,23)
+2025-07-29 03:28:41,787 WARN [camera_capture]            PeakGraph.java:305  | No system found
+2025-07-29 03:28:41,788 INFO [camera_capture]                 Book.java:584  | Created scores: []
+2025-07-29 03:28:41,789 INFO [camera_capture]            SheetStub.java:1252 | Sheet camera_capture flagged as invalid.
+2025-07-29 03:28:41,789 INFO [camera_capture]            SheetStub.java:1372 | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2025-07-29 03:28:41,789 INFO [camera_capture]                 Book.java:2535 | Book{camera_capture} storing
+2025-07-29 03:28:41,813 INFO [camera_capture]                 Book.java:2515 | Stored /book.xml
+2025-07-29 03:28:41,847 INFO [camera_capture]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-07-29 03:28:42,177 INFO [camera_capture]                Sheet.java:1529 | Stored /sheet#1/sheet#1.xml
+2025-07-29 03:28:42,178 INFO [camera_capture]                 Book.java:2476 | Book stored as /workspaces/MobilSheets/backend/output/camera_capture.omr
+2025-07-29 03:28:42,183 INFO [camera_capture]            SheetStub.java:1605 | Disposed sheet
+2025-07-29 03:28:42,230 INFO [camera_capture]                 Book.java:2035 | End of Stub#1 memory: 9,766,104
+2025-07-29 03:28:42,231 INFO [camera_capture]                 Book.java:584  | Created scores: []
